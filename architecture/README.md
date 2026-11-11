@@ -30,6 +30,27 @@ The architecture is designed to support:
 | UPS | CyberPower CP1500PFCRM2U | Battery backup and power protection |
 | Rack | Tripp Lite SRW12US | Wall-mounted network enclosure |
 
+### Physical Network Cabling and Termination
+
+As part of the homelab infrastructure deployment, I personally terminated and tested the Category 6 (Cat6) Unshielded Twisted Pair (UTP) Ethernet cabling used to interconnect network equipment and endpoints.
+
+This work included:
+
+- Measuring and preparing Ethernet cable runs.
+- Terminating Cat6 UTP cables using RJ45 (8P8C) connectors and punch-down terminations where applicable.
+- Following structured cabling practices and T568B wiring conventions.
+- Using dedicated networking tools to perform cable termination and continuity testing.
+- Troubleshooting physical connectivity issues during network deployment.
+
+**Tools utilized:**
+- Klein Tools VDV226-110 modular crimper
+- trueCABLE 110 punch-down tool
+- Klein Tools Ethernet cable testing equipment
+
+This hands-on implementation provided practical experience with physical network infrastructure, Ethernet cabling standards, cable termination, and Layer 1 troubleshooting.
+
+The completed cabling supports the lab's managed switching, network segmentation, endpoint connectivity, and security monitoring infrastructure.
+
 ### Security Onion Server
 
 The Security Onion deployment runs on dedicated physical hardware rather than a virtual machine.
